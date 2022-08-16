@@ -1,0 +1,107 @@
+nav{
+    
+    background-color: rgb(12, 24, 46);
+    padding: 16px 32px;
+
+  }
+  nav a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgb(22, 135, 155);
+  }
+  h2{
+    color: aliceblue;
+  }
+  .active{
+    color: rgb(73, 13, 13);
+    font-weight: bold;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(161, 145, 145);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .submit{
+    
+    background-color: antiquewhite;
+   width:45%;
+    justify-content: center;
+    height: 65vh;
+    margin: 4% 28% 4% 30%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border-color: darkgoldenrod;
+  }
+  .order{
+    padding: 16px 32px;
+    display: inline-block;
+   margin-top: 15%;
+   
+  }
+  h5{
+    text-align: center;
+    color: brown;
+    font-family: cursive;
+  }
+  button{
+    width:45%;
+    margin:2% 16% 2% 28%;
+    cursor: pointer;           
+    border-color: rgba(191, 159, 90, 0.521);
+
+}   
+button:hover {
+    background-color: #ab8024;
+    color: rgb(57, 56, 54);
+  }
+  .name{
+    color: blue;
+    text-align: center;
+  }
+  .container-fluid{
+    
+}
+.card{
+    width:33.3%;
+    height: 75%;
+    margin:2% 0% 2% 2%;
+    background-color: rgb(164, 164, 211);
+    color: rgb(27, 31, 39);
+    overflow: hidden;
+   
+    
+}
+.card:hover{
+    z-index: 1;
+    box-shadow: 5px 5px 10px  rgb(166, 163, 163);
+    transform: scale(1.01);
+}
+.register{
+    background-color: rgb(129, 187, 218);
+    width:55%;
+     justify-content: center;
+     height: 100vh;
+     margin: 4% 30% 4% 30%;
+     box-sizing: border-box;
+     border-radius: 4px;
+     border-color: rgb(95, 160, 190);
+}
+.buy{
+    padding: 16px 32px;
+    display: inline-block;
+  
+   
+  }
